@@ -20,7 +20,10 @@ export const getData = async (link) => {
 
 // Test case
 (async () => {
-  const link = 'https://www.watsons.com.tr/nyx-professional-makeup-buttermelt-blush-kremsi-pudra-allik-04-u-know-butta/p/BP_1406335'; // Replace with a valid URL
+  const link = 'https://www.trendyol.com/cream-co/moisturizer-su-bazli-nemlendirici-yuz-kremi-cilt-tonu-esitleyici-aydinlatici-tum-cilt-tipleri-p-318291787?boutiqueId=673982&merchantId=556702&sav=true'; // Replace with a valid URL
   const data = await getData(link);
   console.log(data);
 })();
+
+
+
