@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Scraper that gives price, description, images and more for trendyol links",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
@@ -17,6 +18,6 @@
   "author": "Bartu OZEL",
   "license": "MIT",
   "dependencies": {
-    "axios": "^0.20.0"
+    "axios": "^1.7.7"
   }
 }
